@@ -2,7 +2,7 @@
 
 A simple Retrieval-Augmented Generation (RAG) demo application that demonstrates how to build a question-answering system using LangChain, FAISS, and Hugging Face models.
 
-## 🚀 Features
+## Features
 
 - **Two Approaches**: One-pager for easy collaboration + modular for production use
 - **Self-Contained**: `app.py` works independently without other files
@@ -13,13 +13,13 @@ A simple Retrieval-Augmented Generation (RAG) demo application that demonstrates
 - **Interactive Mode**: Real-time question answering
 - **Demo Mode**: Predefined queries to showcase capabilities
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - CUDA-compatible GPU (recommended for better performance)
 - 8GB+ RAM (for the large model)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -37,7 +37,7 @@ A simple Retrieval-Augmented Generation (RAG) demo application that demonstrates
    python cli.py --help
    ```
 
-## 🎯 Quick Start
+## Quick Start
 
 ### One-Pager Version (Easiest for collaboration)
 ```bash
@@ -57,7 +57,7 @@ cd modular
 python cli.py --mode interactive
 ```
 
-## 📖 Usage
+## Usage
 
 ### Command Line Interface
 
@@ -90,7 +90,7 @@ answer = rag.ask("When is Dr. Sarah available?")
 print(answer)
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 The project offers two approaches:
 
@@ -122,7 +122,7 @@ simple-rag-test/
 - **`modular/config.py`**: Centralized configuration for models, parameters, and demo data
 - **`modular/cli.py`**: Command-line interface with demo and interactive modes
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Configuration
 
@@ -145,7 +145,7 @@ DEFAULT_TOP_K = 3       # Number of documents to retrieve
 MAX_NEW_TOKENS = 256    # Maximum tokens to generate
 ```
 
-## 📊 Demo Data
+## Demo Data
 
 The application comes with sample medical clinic data including:
 - Doctor availability schedules
@@ -153,7 +153,7 @@ The application comes with sample medical clinic data including:
 - Insurance and appointment procedures
 - Special events and services
 
-## 🎮 Example Queries
+## Example Queries
 
 Try these sample questions:
 
@@ -163,7 +163,7 @@ Try these sample questions:
 - "When should I bring insurance documents for a weekday appointment?"
 - "If I want to see both a cardiologist and a dermatologist on the same day, which day should I visit?"
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -186,7 +186,7 @@ Try these sample questions:
 - **Model Selection**: Use `flan-t5-base` for faster inference, `flan-t5-large` for better quality
 - **Batch Processing**: For multiple queries, initialize the system once and reuse it
 
-## 🔄 Development
+## Development
 
 ### Adding New Documents
 
@@ -218,7 +218,7 @@ The modular design makes it easy to extend:
 3. **Custom Preprocessing**: Override the text splitting logic
 4. **Additional Interfaces**: Create new CLI commands or web interfaces
 
-## 📚 Dependencies
+## Dependencies
 
 - **LangChain**: Framework for building LLM applications
 - **FAISS**: Efficient similarity search and clustering
@@ -226,7 +226,7 @@ The modular design makes it easy to extend:
 - **Sentence Transformers**: Embedding models
 - **Accelerate**: Optimized model loading
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -234,11 +234,11 @@ The modular design makes it easy to extend:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangChain](https://github.com/langchain-ai/langchain) for the RAG framework
 - [Hugging Face](https://huggingface.co/) for the pre-trained models

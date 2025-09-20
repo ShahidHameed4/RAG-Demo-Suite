@@ -2,7 +2,7 @@
 
 This folder contains the self-contained, single-file RAG demo that's perfect for quick sharing and collaboration.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -12,19 +12,19 @@ pip install -r ../requirements.txt
 python app.py
 ```
 
-## 📁 Contents
+## Contents
 
 - **`app.py`**: Complete RAG implementation in a single file
 - **`README.md`**: This file
 
-## ✨ Features
+## Features
 
 - **Self-contained**: Everything in one file
 - **No dependencies**: Works independently of other project files
 - **Easy sharing**: Perfect for Google Colab, Jupyter notebooks, or quick demos
 - **Complete functionality**: Full RAG pipeline with demo queries
 
-## 🎯 Perfect For
+## Perfect For
 
 - Quick demonstrations
 - Sharing with colleagues
@@ -32,7 +32,7 @@ python app.py
 - Learning and experimentation
 - Proof of concepts
 
-## 📖 Usage
+## Usage
 
 The `app.py` file contains:
 - Model configuration

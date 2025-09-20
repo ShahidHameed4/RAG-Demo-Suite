@@ -2,7 +2,7 @@
 
 This folder contains the production-ready, modular RAG system with proper architecture and error handling.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -15,14 +15,14 @@ python cli.py --mode demo
 python cli.py --mode interactive
 ```
 
-## 📁 Contents
+## Contents
 
 - **`cli.py`**: Command-line interface
 - **`rag_system.py`**: Core RAG system implementation
 - **`config.py`**: Configuration settings
 - **`README.md`**: This file
 
-## ✨ Features
+## Features
 
 - **Modular Architecture**: Clean separation of concerns
 - **Error Handling**: Robust error handling and logging
@@ -30,7 +30,7 @@ python cli.py --mode interactive
 - **Configuration Management**: Easy to modify settings
 - **Extensible**: Easy to add new features
 
-## 🎯 Perfect For
+## Perfect For
 
 - Production applications
 - Development and testing
@@ -38,7 +38,7 @@ python cli.py --mode interactive
 - Team collaboration
 - Long-term projects
 
-## 📖 Usage
+## Usage
 
 ### Command Line Interface
 
@@ -68,7 +68,7 @@ answer = rag.ask("Your question here?")
 print(answer)
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Modify `config.py` to change:
 - Model settings
