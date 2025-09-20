@@ -1,0 +1,18 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.0.20
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+accelerate>=0.20.0
+torch>=2.0.0
+
+# Optional dependencies for better performance
+# Uncomment if you have a GPU and want to use CUDA
+# torch-audio
+# torch-vision
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
